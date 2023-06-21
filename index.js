@@ -114,7 +114,7 @@ app.post("/", async function (req, res) {
     name: itemName,
   });
 
-  if (listName === "Today") {
+  if (listName === "Lista") {
     item.save();
     res.redirect("/");
   } else {
